@@ -25,6 +25,10 @@ function launchTerminal(){
     const pageFinishedLoadCon =
         jsUrl.makeJsUrl(`${sshTerminalNoArgsJs}`);
     jsUbuntu.boot();
+    const isDropbearName = jsUbuntu.isProc("dropbear");
+    const isDropbearPort = jsUbuntu.isProc("10022");
+    const isDorpbearProc = isDropbearName && isDropbearPort;
+    if(!isDorpbearProc) return;
     jsUrl.loadUrlWithPageFinishedLoadCon(
         loadJsCon,
         pageFinishedLoadCon,

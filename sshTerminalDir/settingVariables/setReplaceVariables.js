@@ -66,6 +66,34 @@ sshTerminalSelectExtraKeyScriptPath=
 	`${sshTerminalSelectScriptDirPath}/selectExtraKey.js`,
 sshTerminalSelectCmdScriptPath=
 	`${sshTerminalSelectScriptDirPath}/selectCmd.js`,
+sshTerminalCopyJsPath=
+	`${sshTerminalJsDirPath}/copy.js`,
+sshTerminalPasteJsPath=
+	`${sshTerminalJsDirPath}/paste.js`,
+sshTerminalUpJsPath=
+	`${sshTerminalJsDirPath}/up.js`,
+sshTerminalBackspaceJsPath=
+	`${sshTerminalJsDirPath}/backspace.js`,
+sshTerminalPageUpJsPath=
+	`${sshTerminalJsDirPath}/pageUp.js`,
+sshTerminalSpaceJsPath=
+	`${sshTerminalJsDirPath}/space.js`,
+sshTerminalLeftJsPath=
+	`${sshTerminalJsDirPath}/left.js`,
+sshTerminalRightJsPath=
+	`${sshTerminalJsDirPath}/right.js`,
+sshTerminalDownJsPath=
+	`${sshTerminalJsDirPath}/down.js`,
+sshTerminalCtrlCJsPath=
+	`${sshTerminalJsDirPath}/ctrlC.js`,
+sshTerminalEnterJsPath=
+	`${sshTerminalJsDirPath}/enter.js`,
+sshTerminalInputJsPath=
+	`${sshTerminalJsDirPath}/input.js`,
+sshTerminalRegisterCmdJsPath=
+	`${sshTerminalJsDirPath}/registerCmd.js`,
+sshTerminalRegisterExtraKeyJsPath=
+	`${sshTerminalJsDirPath}/registerExtraKey.js`,
 
 // system js path
 sshTerminalNoArgsJs=
@@ -74,6 +102,8 @@ sshTerminalNoArgsJs=
 // libs path
 sshTerminalSshDialogJsPath=
 	`${sshTerminalLibsDirPath}/sshDialog.js`,
+sshTerminalUpdateSearchWordListJsPath=
+	`${sshTerminalLibsDirPath}/updateSearchWordList.js`,
 
 // list path
 sshTerminalExtraKeyListFilePath=

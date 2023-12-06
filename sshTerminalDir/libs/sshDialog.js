@@ -115,10 +115,10 @@ function makeSshCmd(
         return [
             `sshpass -p ${updateSshPass}`,
             `ssh`,
-            `-o StrictHostKeyChecking=no`,
-            `-o UserKnownHostsFile=/dev/null`,
+            `-o "StrictHostKeyChecking=no"`,
+            `-o "UserKnownHostsFile=/dev/null"`,
             `-p ${specifyPort}`,
-            `${updateUserName}@${updateAddress}`,
+            `"${updateUserName}@${updateAddress}"`,
         ].join(" ");
     }
     return sshHandler(
@@ -174,15 +174,15 @@ function useKeyCmd(
         return [
             `sshpass -p ${updateSshPass}`,
             `ssh`,
-            `-o StrictHostKeyChecking=no`,
+            `-o "StrictHostKeyChecking=no"`,
             `-p ${specifyPort}`,
-            `${updateUserName}@${updateAddress}`,
+            `"${updateUserName}@${updateAddress}"`,
         ].join(" ");
     }
     return [
         `ssh`,
-        `-o StrictHostKeyChecking=no`,
+        `-o "StrictHostKeyChecking=no"`,
         `-p ${specifyPort}`,
-        `${updateUserName}@${updateAddress}`,
+        `"${updateUserName}@${updateAddress}"`,
     ].join(" ");
 }
