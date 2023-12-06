@@ -14,6 +14,8 @@ Table of Contents
 <!-- vim-markdown-toc GFM --> 
 * [Usage](#usage)
   * [`keyPhase` table in dialog](#keyphase-table-in-dialog)
+* [Toolbar buttons](#toolbar-buttons)
+	* [Play Button](#play-button)
 * [Cmd Variables](#cmd-variables)
 	* [Keyboard](#keyboard)
 	* [cmdInput](#cmdinput)
@@ -38,6 +40,13 @@ Enable Ssh access by dialog
 | `SET_UP` | set up ssh key        |
 | `USE`    | ssh access by ssh key |
 
+## Toolbar buttons
+
+### Play Button
+
+Launch ssh dialog
+
+- `keyPhase` -> [detail](#keyphase-table-in-dialog)
 
 ## Cmd Variables
 --------
