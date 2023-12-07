@@ -7,11 +7,12 @@
 # sshTerminal.js
 ----------------
 
-SSh access terminal emulator @puutaro
+SSH access terminal emulator @puutaro
 
 Table of Contents
 -------
 <!-- vim-markdown-toc GFM --> 
+* [Installation](#installation)
 * [Usage](#usage)
   * [`keyPhase` table in dialog](#keyphase-table-in-dialog)
 * [Toolbar buttons](#toolbar-buttons)
@@ -24,6 +25,14 @@ Table of Contents
 	* [REGISTER_EXTRA_KEY](#register_extra_key)
 		* [Modifier kind table](#modifier-kind-table)
 * [Acknowledge](#acknowledge)
+
+## Installation
+---------------------
+
+1. Install [ComamndClick](https://github.com/puutaro/CommandClick) to your android by [this link](https://github.com/puutaro/CommandClick#app-installation)
+2. Set up Ubuntu by [this link](https://github.com/puutaro/CommandClick/blob/master/USAGE.md#setup-ubuntu)
+3. Install this fannel by [install repo](https://github.com/puutaro/CommandClick/blob/master/USAGE.md#install-fannel) or QR code
+
 
 ## Usage
 --------
@@ -77,7 +86,7 @@ Retrieve pre-registerd command.
 - "-" is escape that you execute command in drop down.
 - If you wont to edit keys file, this is bellow.
 
-[cmdTerminalDir](https://github.com/puutaro/CommandClick/blob/master/md/developer/directory_structure.md#fannel_dir)/list/cmdList.txt
+[sshTerminalDir](https://github.com/puutaro/CommandClick/blob/master/md/developer/directory_structure.md#fannel_dir)/list/cmdList.txt
 
 
 
@@ -91,7 +100,7 @@ Register user difinition key.
 - If you wont to edit keys file, this is bellow.
 
 
-[cmdTerminalDir](https://github.com/puutaro/CommandClick/blob/master/md/developer/directory_structure.md#fannel_dir)/list/extraKeyList.txt
+[sshTerminalDir](https://github.com/puutaro/CommandClick/blob/master/md/developer/directory_structure.md#fannel_dir)/list/extraKeyList.txt
 
 
 #### Modifier kind table
