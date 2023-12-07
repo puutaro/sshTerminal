@@ -12,6 +12,7 @@ SSH access terminal emulator @puutaro
 Table of Contents
 -------
 <!-- vim-markdown-toc GFM --> 
+* [Installation](#installation)
 * [Usage](#usage)
   * [`keyPhase` table in dialog](#keyphase-table-in-dialog)
 * [Toolbar buttons](#toolbar-buttons)
@@ -24,6 +25,14 @@ Table of Contents
 	* [REGISTER_EXTRA_KEY](#register_extra_key)
 		* [Modifier kind table](#modifier-kind-table)
 * [Acknowledge](#acknowledge)
+
+## Installation
+---------------------
+
+1. Install [ComamndClick](https://github.com/puutaro/CommandClick) to your android by [this link](https://github.com/puutaro/CommandClick#app-installation)
+2. Set up Ubuntu by [this link](https://github.com/puutaro/CommandClick/blob/master/USAGE.md#setup-ubuntu)
+3. Install this fannel by [install repo](https://github.com/puutaro/CommandClick/blob/master/USAGE.md#install-fannel) or QR code
+
 
 ## Usage
 --------
